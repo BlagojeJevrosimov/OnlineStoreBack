@@ -1,0 +1,5 @@
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\JwtAuthentificationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\JwtAuthentificationManager\obj\Debug\net6.0\JwtAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\JwtAuthentificationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\JwtAuthentificationManager\obj\Debug\net6.0\JwtAuthenticationManager.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\JwtAuthentificationManager\obj\Debug\net6.0\JwtAuthenticationManager.csproj.CoreCompileInputs.cache

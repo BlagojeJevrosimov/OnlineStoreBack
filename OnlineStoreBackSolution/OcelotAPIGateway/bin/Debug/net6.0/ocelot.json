@@ -1,0 +1,107 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/users",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7221
+        },
+        {
+          "Host": "localhost",
+          "Port": 5024
+        }
+      ],
+      "UpstreamPathTemplate": "/users",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "UpstreamHost": "localhost",
+      "UpstreamPort": 7148,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7221
+        },
+        {
+          "Host": "localhost",
+          "Port": 5024
+        }
+      ],
+      "UpstreamPathTemplate": "/login",
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamHost": "localhost",
+      "UpstreamPort": 7148,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7221
+        },
+        {
+          "Host": "localhost",
+          "Port": 5024
+        }
+      ],
+      "UpstreamPathTemplate": "/register",
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamHost": "localhost",
+      "UpstreamPort": 7148,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7148;http://localhost:5093",
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}
+
+
+  /*
+  
+
+  "DownstreamTemplate": "api/Products",
+  "AuthenticationOptions":
+  {
+  "AuthenticationProviderKey": "Bearer",
+  "AllowedScopes": []
+  },
+  ""RouteClaimsRequirement": {
+  "Role": "Administrator"
+  }
+
+  "RateLimitOptions":{
+  "ClientWhiteList": [],
+  "EnableRateLimiting": true,
+  "Period": 60s,
+  "PeriodTimeSpan": 15s,
+  "Limit": 1
+  }"
+
+  "GlobalConfiguration":{
+  "BaseUrl": "https://localhost:8001",
+  "RateLimitOptions": {
+  "QuotaExceededMessage": "Request denied!",
+  "HttpStatusCode": 909
+  }
+  }
+  */
+
