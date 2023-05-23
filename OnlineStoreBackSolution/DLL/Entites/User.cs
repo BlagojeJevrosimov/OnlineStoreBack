@@ -1,5 +1,5 @@
 ﻿using Common;
-using UserDAL.Enums;
+using Common.Enums;
 
 namespace UserDAL.Entites
 {
@@ -14,7 +14,7 @@ namespace UserDAL.Entites
         public string? Address {get; set;}
         public Role Role { get; set;}
 
-        public String? ProfilePhotoPath { get; set; }
+        public string? ProfilePhotoPath { get; set; }
 
     }
 }

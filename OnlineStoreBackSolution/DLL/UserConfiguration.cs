@@ -27,6 +27,8 @@ namespace UserDAL
 
             builder.HasIndex(x => x.Email).IsUnique();
 
+            builder.HasIndex(x => x.ProfilePhotoPath).IsUnique();
+
         }
     }
 }

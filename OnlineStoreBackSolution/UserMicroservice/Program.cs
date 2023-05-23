@@ -13,8 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<UserDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("UserDbConnectionString"))
+    options.UseSqlServer(builder.Configuration.GetConnectionString("UserDbConnectionString"),
+    sqlServerOptions => sqlServerOptions.EnableRetryOnFailure())
 );
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

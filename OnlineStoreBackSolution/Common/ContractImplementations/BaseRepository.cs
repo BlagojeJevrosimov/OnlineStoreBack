@@ -1,4 +1,5 @@
 ﻿using Common.Contracts;
+using Common.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using System;
@@ -22,17 +23,26 @@ namespace Common.ContractImplementations
 
         public virtual async Task<TEntity> GetByIdAsync(int id)
         {
-            return await _dbSet.FindAsync(id);
+            var entity = await _dbSet.FindAsync(id);
+            if (entity is null)
+                throw new BusinessException("Entity with given id doesn't exist.", System.Net.HttpStatusCode.BadRequest);
+            return entity;
         }
 
         public virtual async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await _dbSet.ToListAsync();
+            var entities = await _dbSet.ToListAsync();
+            if (entities is null)
+                throw new BusinessException("No enitites in the table.", System.Net.HttpStatusCode.BadRequest);
+            return entities;
         }
 
         public virtual async Task<IEnumerable<TEntity>> GetFilteredAsync(Func<TEntity, bool> filter)
         {
-            return await Task.Run(() => _dbSet.Where(filter).ToList());
+            var entity = await Task.Run(() => _dbSet.Where(filter).ToList());
+            if (entity is null)
+                throw new BusinessException("Entity with given parameters doesn't exist.", System.Net.HttpStatusCode.BadRequest);
+            return entity;
         }
 
         public virtual async Task<TEntity> AddAsync(TEntity entity)

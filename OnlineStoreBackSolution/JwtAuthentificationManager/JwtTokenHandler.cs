@@ -25,7 +25,7 @@ namespace JwtAuthenticationManager
         {
             if (string.IsNullOrWhiteSpace (request.UserName) || string.IsNullOrWhiteSpace(request.Password))
                 return null;
-            if (request.UserName == "Admin" && request.Password == "Admin") ;
+            if (request.UserName == "Admin" && request.Password == "Admin");
             else return null;
 
             var tokenExpirationTimeStamp = DateTime.Now.AddMinutes(JwtTokenValidityMins);

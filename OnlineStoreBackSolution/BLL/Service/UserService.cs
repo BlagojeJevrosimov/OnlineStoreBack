@@ -32,11 +32,36 @@ namespace UserBLL.Service
             _encryptionHelper = encryptionHelper;
         }
 
+        public async Task<LoginResponse> Login(LoginRequest request)
+        {
+            var users = await _userRepository.GetFilteredAsync(user => user.Email == request.Email);
+            var user = users.FirstOrDefault();
+
+            if (user is null)
+                throw new BusinessException("User with given email doesn't exist.", System.Net.HttpStatusCode.BadRequest);
+
+            string hashedPassword = _hashHelper.Hash(request.Password!);
+
+            if (_hashHelper.CompareHashCodes(user.Password!, hashedPassword))
+            {
+                string token = generateJwtToken(new TokenRequest()
+                {
+                    Id = user.Id,
+                    Role = user.Role
+                });
+
+                return new LoginResponse() {Id = user.Id, JwtToken = token };
+            }
+            else
+                throw new BusinessException("Invalid password.", System.Net.HttpStatusCode.BadRequest);
+
+        }
+
         public async Task<RegisterUserResponse> RegisterUser(RegisterUserRequest request)
         {
             var foundUser = await _userRepository.GetFilteredAsync(user => user.UserName == request.UserName);
 
-            if (foundUser is null)
+            if (foundUser.ToList().Count == 0)
             {
                 User user = new User()
                 {

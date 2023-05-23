@@ -1,10 +1,10 @@
-﻿using Microsoft.Identity.Client;
+﻿using Common.Enums;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserDAL.Enums;
 
 namespace UserBLL.DTOs.Request
 {

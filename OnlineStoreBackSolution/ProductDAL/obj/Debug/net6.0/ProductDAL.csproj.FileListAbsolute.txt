@@ -22,3 +22,6 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\Prod
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\obj\Debug\net6.0\refint\ProductDAL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\obj\Debug\net6.0\ProductDAL.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\obj\Debug\net6.0\ref\ProductDAL.dll
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\bin\Debug\net6.0\Common.dll
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\bin\Debug\net6.0\Common.pdb
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\ProductDAL\obj\Debug\net6.0\ProductDAL.csproj.CopyComplete

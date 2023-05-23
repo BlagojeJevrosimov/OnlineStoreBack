@@ -1,11 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+using ProductBLL.Contracts.Services;
+using ProductBLL.Services;
+using ProductDAL;
+using ProductDAL.Contracts.Repositories;
+using ProductDAL.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddDbContext<ProductDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ProductDbConnectionString"),
+    sqlServerOptions => sqlServerOptions.EnableRetryOnFailure())
+);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 

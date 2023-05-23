@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Common;
+using Common.Enums;
+using Microsoft.AspNetCore.Mvc;
 using UserBLL.Contracts.Service;
 using UserBLL.DTOs.Request;
 using UserBLL.DTOs.Response;
 using UserDAL.Entites;
-using UserDAL.Enums;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,6 +21,7 @@ namespace UserAPI.Controllers
         }
 
         [HttpGet]
+        [UserAuthorization]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             return Ok(await _userService.GetAllAsync());
@@ -28,7 +30,7 @@ namespace UserAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
-            User user = await _userService.GetByIdAsync (id);
+            User user = await _userService.GetByIdAsync(id);
 
             return user;
         }
@@ -52,9 +54,9 @@ namespace UserAPI.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<ActionResult<User>> Login(User request)
+        public async Task<ActionResult<User>> Login(LoginRequest request)
         {
-            User response = await _userService.GetByIdAsync(request.Id);
+            LoginResponse response = await _userService.Login(request);
 
             return Ok(response);
         }
