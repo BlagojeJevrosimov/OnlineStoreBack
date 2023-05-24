@@ -22,3 +22,8 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\Orde
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\obj\Debug\net6.0\refint\OrderBLL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\obj\Debug\net6.0\OrderBLL.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\obj\Debug\net6.0\ref\OrderBLL.dll
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\bin\Debug\net6.0\Common.dll
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\bin\Debug\net6.0\OrderDAL.dll
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\bin\Debug\net6.0\Common.pdb
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\bin\Debug\net6.0\OrderDAL.pdb
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\OrderBLL\obj\Debug\net6.0\OrderBLL.csproj.CopyComplete

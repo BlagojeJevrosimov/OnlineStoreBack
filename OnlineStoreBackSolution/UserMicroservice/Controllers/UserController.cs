@@ -15,19 +15,25 @@ namespace UserAPI.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private int _userId
+        {
+            get => Convert.ToInt32(HttpContext?.Items["Id"]);
+        }
         public UserController(IUserService userService)
         {
             _userService = userService;
         }
 
         [HttpGet]
-        [UserAuthorization]
+        [UserAuthorization(Role.Administrator)]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             return Ok(await _userService.GetAllAsync());
         }
 
         [HttpGet("{id}")]
+        [UserAuthorization]
+        //Dodaj da moze samo sebe ako nije admin
         public async Task<ActionResult<User>> GetUser(int id)
         {
             User user = await _userService.GetByIdAsync(id);
@@ -36,6 +42,8 @@ namespace UserAPI.Controllers
         }
 
         [HttpPut]
+        [UserAuthorization]
+        //Dodaj da moze samo sebe ako nije admin
         public async Task<IActionResult> PutUser(User request)
         {
             await _userService.UpdateAsync (request);
@@ -62,6 +70,8 @@ namespace UserAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [UserAuthorization]
+        //dodaj da moze samo sebe ako nije admin
         public async Task<IActionResult> DeleteUser(int id)
         {
             await _userService.DeleteByIdAsync(id);
