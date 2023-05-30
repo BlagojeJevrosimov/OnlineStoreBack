@@ -1,4 +1,5 @@
 ﻿using Common.Contracts;
+using OrderBLL.DTOs.Request;
 using OrderDAL.Entites;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace OrderBLL.Contracts.Services
 {
     public interface IOrderService : IBaseService<Order>
     {
+        public Task<Order> AddOrderAsync(AddOrderRequest request, int userId);
     }
 }

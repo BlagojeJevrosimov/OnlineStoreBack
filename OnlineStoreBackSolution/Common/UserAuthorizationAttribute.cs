@@ -1,4 +1,5 @@
 ﻿using Common.Enums;
+using Common.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -26,7 +27,17 @@ namespace Common
 
             var token = context.HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
 
-            SecurityToken validatedToken = new JwtSecurityToken(token);
+            SecurityToken validatedToken;
+
+            try
+            {
+                 validatedToken = new JwtSecurityToken(token);
+            }
+            catch
+            {
+                throw new BusinessException("Invalid token.", System.Net.HttpStatusCode.BadRequest);
+            }
+           
 
             var key = Encoding.ASCII.GetBytes("aksjhfkj324h234khgr324kjj3h2lkjaHLHLSDAJjkj412lkeJLdskJ");
 

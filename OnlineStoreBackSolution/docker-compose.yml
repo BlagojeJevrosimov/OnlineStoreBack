@@ -1,0 +1,46 @@
+version: '3'
+services:
+  user-api:
+    image: userapi
+    ports:
+      - 8001:80
+    depends_on:
+      - user-db
+
+  user-db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=
+    ports:
+      - 1433:1433
+
+  order-api:
+    image: orderapi
+    ports:
+      - 8002:80
+    depends_on:
+      - order-db
+
+  order-db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=
+    ports:
+      - 1434:1433
+
+  product-api:
+    image: productapi
+    ports:
+      - 8003:80
+    depends_on:
+      - product-db
+
+  product-db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=
+    ports:
+      - 1435:1433

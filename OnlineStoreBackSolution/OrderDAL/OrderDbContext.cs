@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using OrderDAL.Entites;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,7 @@ namespace OrderDAL
         {
         }
         public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }

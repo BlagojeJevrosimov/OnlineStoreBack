@@ -77,7 +77,7 @@ namespace OrderDAL.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("OrderDAL.Entites.OrderItem", b =>

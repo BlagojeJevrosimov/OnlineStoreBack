@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2hWG3gktOsEIKWHaxCOaRHdAnGkem0QnbxLWHLjx0ItWKb/N1gIwPbanflcNTx0tLsMlLx8cWqD1/b25H1L00Q==",
+  "dgSpecHash": "3Mt5UDmsrGXZvAhNzF/FHc8hBfD/lPiKIBJtZsxNUppokLQaXBjRLVYi/oCTGfJgmGxOQLET6Ca80TDJF5xrTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\Workspace\\OnlineStoreBack\\OnlineStoreBackSolution\\OrderMicroservice\\OrderAPI.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

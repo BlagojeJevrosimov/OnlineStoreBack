@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderBLL.Contracts.Services;
+using OrderBLL.DTOs.Request;
 using OrderDAL.Entites;
 
 namespace OrderAPI.Controllers
@@ -47,10 +48,11 @@ namespace OrderAPI.Controllers
         }
 
         [HttpPost]
-        [UserAuthorization(Common.Enums.Role.Salesman)]
-        public async Task<ActionResult<Order>> AddProduct(Order request)
+       // [UserAuthorization]
+        //izmenjaj pa istestiraj
+        public async Task<ActionResult<Order>> AddOrder(AddOrderRequest request)
         {
-            var response = await _productService.AddAsync(request);
+            var response = await _productService.AddOrderAsync(request, _userId);
 
             return Ok(response);
         }
@@ -66,4 +68,4 @@ namespace OrderAPI.Controllers
         }
     }
 }
-}
+

@@ -15,11 +15,6 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\BLL\obj\Deb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\BLL\obj\Debug\net6.0\refint\UserBLL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\BLL\obj\Debug\net6.0\UserBLL.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\BLL\obj\Debug\net6.0\ref\UserBLL.dll
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.csproj.AssemblyReference.cache
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.AssemblyInfoInputs.cache
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.AssemblyInfo.cs
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.csproj.CoreCompileInputs.cache
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\UserBLL.deps.json
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\UserBLL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\UserBLL.pdb
@@ -27,6 +22,11 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\UserDAL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\UserDAL.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\bin\Debug\net6.0\Common.pdb
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.csproj.CoreCompileInputs.cache
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.csproj.CopyComplete
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\UserBLL.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\BLL\obj\Debug\net6.0\refint\UserBLL.dll

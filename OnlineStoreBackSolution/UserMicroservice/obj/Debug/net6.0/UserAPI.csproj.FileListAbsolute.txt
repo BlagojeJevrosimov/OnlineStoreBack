@@ -294,12 +294,6 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\UserMicrose
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\UserMicroservice\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\UserMicroservice\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OcelotAPIGateway\UserMicroservice\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.AssemblyInfoInputs.cache
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.AssemblyInfo.cs
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.csproj.CoreCompileInputs.cache
-C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\appsettings.json
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\UserAPI.exe
@@ -576,7 +570,13 @@ C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\User
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\UserBLL.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\Common.pdb
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\bin\Debug\net6.0\UserDAL.pdb
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.csproj.CoreCompileInputs.cache
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\UserAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\staticwebassets\msbuild.UserAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\staticwebassets\msbuild.build.UserAPI.props
 C:\Users\Korisnik\Desktop\Workspace\OnlineStoreBack\OnlineStoreBackSolution\UserMicroservice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UserAPI.props
